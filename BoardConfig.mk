@@ -25,16 +25,16 @@
 # Inherit from sdm660-common
 -include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/whyred
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := tulip,twolip
+TARGET_OTA_ASSERT_DEVICE := whyred
 
 # Kernel
-TARGET_KERNEL_CONFIG := tulip_defconfig
+TARGET_KERNEL_CONFIG := whyred-perf_defconfig
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/twolip/BoardConfigVendor.mk
+-include vendor/xiaomi/whyred/BoardConfigVendor.mk
