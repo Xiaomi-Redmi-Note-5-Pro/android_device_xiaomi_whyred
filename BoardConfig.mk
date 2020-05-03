@@ -33,6 +33,9 @@ TARGET_OTA_ASSERT_DEVICE := whyred
 # Kernel
 TARGET_KERNEL_CONFIG := whyred-perf_defconfig
 
+# Display
+TARGET_SCREEN_DENSITY := 410
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
