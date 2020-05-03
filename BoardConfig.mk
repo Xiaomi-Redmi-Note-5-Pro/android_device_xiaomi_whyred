@@ -40,4 +40,4 @@ TARGET_SCREEN_DENSITY := 410
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/whyred/BoardConfigVendor.mk
+# -include vendor/xiaomi/whyred/BoardConfigVendor.mk
