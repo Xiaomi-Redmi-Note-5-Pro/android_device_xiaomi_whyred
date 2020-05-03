@@ -44,4 +44,4 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/whyred/whyred-vendor.mk)
+# $(call inherit-product-if-exists, vendor/xiaomi/whyred/whyred-vendor.mk)
